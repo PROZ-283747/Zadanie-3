@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/fscontext.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/gf-client.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/imqbroker.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/imqjmsbridge.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/imqjmsra.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/imqjmx.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/imqstomp.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/javaee.jar"/>
+	<classpathentry kind="lib" path="F:/ADELA/STUDIA/SEM_4/PROZ/Zadanie-3/lib/javax.jms-api.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

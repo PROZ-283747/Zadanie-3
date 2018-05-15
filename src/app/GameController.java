@@ -247,7 +247,7 @@ public class GameController {
 	}
 
 	// reseting board after clicking ResetButton
-	public void resetBoard() {
+	private void resetBoard() {
 		clearButtons();
 		disableButtons(false);
 		gameModel.resetGameModel();
@@ -256,7 +256,7 @@ public class GameController {
 	}
 
 	// response for the event in which opponent clicks on ResetButton
-	public void resetResponse() {
+	private void resetResponse() {
 		clearButtons();
 		disableButtons(false);
 		gameModel.resetGameModel();
@@ -279,21 +279,21 @@ public class GameController {
 		}
 	}
 
-	public void sendWelcomeMessage() {
+	private void sendWelcomeMessage() {
 		System.out.println("START");
 		producer.sendQueueMessages("START", 0, 0);
 	}
 
-	public void sendResetMessage() {
+	private void sendResetMessage() {
 		System.out.println("RESET");
 		producer.sendQueueMessages("RESET", 0, 0);
 	}
 
-	public void sendMyMove(int x, int y) {
+	private void sendMyMove(int x, int y) {
 		producer.sendQueueMessages("COORDINATES", x, y);
 	}
 
-	public void sendCloseMessage() {
+	private void sendCloseMessage() {
 		producer.sendQueueMessages("CLOSE", 0, 0);
 	}
 

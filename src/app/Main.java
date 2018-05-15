@@ -24,6 +24,17 @@ public class Main extends Application {
 
 	private GameController gameController = new GameController();
 
+	private void primaryStage_Hiding(WindowEvent e, FXMLLoader fxmlLoader) {
+	
+		if (e == null)
+			System.out.println("e is null");
+		if (fxmlLoader == null)
+			System.out.println("fxmlLoader is null");
+		if (fxmlLoader.getController() == null)
+			System.out.println("fxmlLoader.getController() is null");
+		gameController.closeProgram();
+	}
+
 	@Override
 	public void start(Stage primaryStage) {
 		try {
@@ -42,17 +53,6 @@ public class Main extends Application {
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
-	}
-
-	private void primaryStage_Hiding(WindowEvent e, FXMLLoader fxmlLoader) {
-
-		if (e == null)
-			System.out.println("e is null");
-		if (fxmlLoader == null)
-			System.out.println("fxmlLoader is null");
-		if (fxmlLoader.getController() == null)
-			System.out.println("fxmlLoader.getController() is null");
-		gameController.closeProgram();
 	}
 
 	public static void main(String[] args) {
